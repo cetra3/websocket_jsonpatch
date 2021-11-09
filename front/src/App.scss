@@ -1,0 +1,22 @@
+
+@import "spectre.css/src/spectre";
+@import "spectre.css/src/spectre-icons";
+
+
+.todo-title {
+  margin-top: 2rem;
+}
+
+.todo-row {
+  margin-top: 0.5rem; 
+}
+
+.todo-buttons {
+  margin-top: 0.5rem; 
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.completed {
+  text-decoration: line-through;
+}
