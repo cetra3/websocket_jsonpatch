@@ -17,7 +17,7 @@ use websocket::{handle_socket, WsState};
 async fn main() {
     // Set a sensible default for logging to ensure we see something
     if std::env::var_os("RUST_LOG").is_none() {
-        std::env::set_var("RUST_LOG", "websocket_jsonpatch=debug,tower_http=debug")
+        std::env::set_var("RUST_LOG", "websocket_jsonpatch=debug")
     }
 
     // Initialise the `fmt` subscriber which will print logs to stderr
